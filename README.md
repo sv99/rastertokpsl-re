@@ -98,7 +98,7 @@ Perl script - simple check two kpsl files, skip from compare user, timestamp and
 ## data_kpslcmp.pl
 
 Perl script, which generates kpsl files for all pdf files in the data directory, using
-original ratertokpsl and rastertokpsl-re filters and compare it.
+original rastertokpsl and rastertokpsl-re filters and compare it.
 
 rastertokpsl-re must be properly installed.
 
