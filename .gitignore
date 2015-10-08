@@ -1,0 +1,10 @@
+*.swp
+.idea/
+*.tar.gz
+*.dmg
+# test and temp files
+*.ras
+*.kpsl
+*.pdf
+# bin files
+bin/*
