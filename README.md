@@ -15,10 +15,14 @@ Problem with utf8 simbols in the job title.
 ## cups
 
 Maverick 10.9.5 have cups version 1.7.2.
+El Capitan 10.11.4 have caups version 2.1.0
 
 [Documentation CUPS 1.7](http://www.cups.org/documentation.php?VERSION=1.7&Q=)
 
-[cups web admin:631](http://127.0.0.1:631)
+[cups web admin:631](http://127.0.0.1:631)\\
+```
+cupsctl WebInterface=on
+```
 
 ```
 sudo launchctl unload -w /System/Library/LaunchDaemons/org.cups.cupsd.plist
@@ -44,13 +48,21 @@ filters in the PPD file.
 [Filter Chain debugging](http://osdir.com/ml/printing.cups.devel/2004-10/msg00026.html)
 
 Debian pages:
- 
+
 [Dissecting and Debugging the CUPS Printing System](https://wiki.debian.org/Dissecting%20and%20Debugging%20the%20CUPS%20Printing%20System#Capturing_the_File_which_is_Sent_to_the_Printer)
 
 [The cupsfilter Utility](https://wiki.debian.org/The%20cupsfilter%20Utility).
 
 [RasterView 1.4.1](http://www.msweet.org/projects.php?Z7)
 
+## install
+```
+./install.sh
+```
+
+On the El Capitan original driver not installed with error - Not found software for install.
+
+Need copy kpsl/ to the /Library/Printers/Kyocera/. Installation with warning - printer worked!!
 
 ## reverse engineering
 
