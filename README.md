@@ -1,6 +1,9 @@
 # rastertokpl
 
-Print images. Stable exception when try run rastertokpl.
+Kyocera KPSL filter for CUPS licensed under the Apache License Version 2.0. See the file "LICENSE" for more information.
+
+The reason for development is unexpected printing errors with original driver.
+The problem in th non ASCII encoding of the file names for printed files.
 
 **FS-1020MFP**
 
@@ -15,11 +18,13 @@ Problem with utf8 simbols in the job title.
 ## cups
 
 Maverick 10.9.5 have cups version 1.7.2.
-El Capitan 10.11.4 have caups version 2.1.0
+El Capitan 10.11.4 have cups version 2.1.0
+High Sierra 10.13.6 hav cups version 2.2.5
 
 [Documentation CUPS 1.7](http://www.cups.org/documentation.php?VERSION=1.7&Q=)
 
-[cups web admin:631](http://127.0.0.1:631)\\
+[cups web admin:631](http://127.0.0.1:631)
+
 ```
 cupsctl WebInterface=on
 ```
